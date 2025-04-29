@@ -3,13 +3,13 @@
 **Date d'entrée en vigueur :** 29 avril 2025
 **Dernière mise à jour :** 29 avril 2025
 
-Bienvenue dans ÉmojiMot ! Cette politique de confidentialité explique comment nous ([ÉmojiMot]) collectons, utilisons et protégeons vos informations lorsque vous utilisez notre application mobile ÉmojiMot (l'"Application").
+Bienvenue dans ÉmojiMot ! Cette politique de confidentialité explique comment nous (ÉmojiMot) collectons, utilisons et protégeons vos informations lorsque vous utilisez notre application mobile ÉmojiMot (l'"Application").
 
 Votre vie privée est importante pour nous. Veuillez lire attentivement cette politique de confidentialité.
 
 ## 1. Informations que nous collectons
 
-ÉmojiMot est conçu pour minimiser la collecte de données personnelles. Les informations que nous traitons sont principalement liées au fonctionnement du jeu et sont stockées localement sur votre appareil. Nous ne collectons *pas* d'informations permettant de vous identifier personnellement (comme votre nom, adresse e-mail, numéro de téléphone) directement via l'application, sauf dans le cadre des processus d'achat gérés par les plateformes tierces (voir section 4).
+ÉmojiMot est conçu pour minimiser la collecte de données personnelles. Les informations que nous traitons sont principalement liées au fonctionnement du jeu et sont stockées localement sur votre appareil. Nous ne collectons pas d'informations permettant de vous identifier personnellement (comme votre nom, adresse e-mail, numéro de téléphone) directement via l'application, sauf dans le cadre des processus d'achat gérés par les plateformes tierces (voir section 4).
 
 Les types de données traitées incluent :
 
@@ -17,12 +17,14 @@ Les types de données traitées incluent :
     * État des effets sonores (activés/désactivés).
     * État de la musique de fond (activée/désactivée).
     * Ces préférences sont stockées **localement sur votre appareil** pour personnaliser votre expérience de jeu.
+
 * **Progression dans le jeu :**
     * Catégories déverrouillées.
     * Niveau actuel ou progression dans les catégories (par exemple, nombre de mots trouvés, score si applicable).
     * Nombre de vies restantes.
     * Inventaire des ressources achetées (indices, pauses, solutions, etc.).
     * Ces données sont stockées **localement sur votre appareil** pour sauvegarder votre partie et gérer les ressources acquises.
+
 * **Informations sur les transactions (via Google Play Store) :**
     * Lorsque vous effectuez un achat intégré (In-App Purchase), la transaction est traitée par la plateforme de distribution d'applications (Google Play Store).
     * Nous ne collectons ni ne stockons **jamais** vos informations de paiement complètes (numéro de carte de crédit, etc.).
@@ -37,7 +39,7 @@ Les informations traitées localement sont utilisées exclusivement pour :
 * Gérer et créditer les achats intégrés que vous effectuez.
 * Améliorer votre expérience de jeu.
 
-Les informations de transaction reçues des plateformes sont utilisées uniquement pour valider et activer vos achats dans l'Application.
+Les informations de transaction reçues des plateformes sont utilisées **uniquement** pour valider et activer vos achats dans l'Application.
 
 ## 3. Stockage et Sécurité des Données
 
@@ -49,9 +51,17 @@ La sécurité de vos données locales dépend de la sécurité de votre propre a
 
 ÉmojiMot propose des achats intégrés optionnels (par exemple, indices, pauses, solutions, déblocage de catégories) via le Google Play Store. Ces transactions sont soumises aux conditions d'utilisation et à la politique de confidentialité de Google :
 
-* [Politique de confidentialité de Google](https://policies.google.com/privacy)
+* [Politique de confidentialité de Google](https://policies.google.com/privacy) <0xE2><0x86><0x90> (Assurez-vous que ce lien est correct ou mettez le lien pertinent vers les politiques Google Play)
 
 Nous ne sommes pas responsables des pratiques de collecte de données de Google Play Store.
+
+**Important concernant les achats et la désinstallation :**
+
+* Les achats effectués dans l'application sont liés à l'appareil sur lequel ils ont été réalisés.
+* Si vous désinstallez l'application, tous les achats intégrés que vous avez effectués seront **définitivement perdus**.
+* Notre application ne prend pas en charge la restauration des achats précédents après une désinstallation.
+* Nous vous recommandons de ne pas désinstaller l'application si vous avez effectué des achats que vous souhaitez conserver.
+* Cette limitation technique est due à notre choix de privilégier la simplicité et la protection de la vie privée en évitant de stocker des données sur des serveurs distants.
 
 ## 5. Partage des Informations
 
@@ -63,15 +73,14 @@ Nous pouvons utiliser des données agrégées et anonymisées (qui ne permettent
 
 ## 6. Confidentialité des Enfants
 
-L'Application ÉmojiMot est destinée aux utilisateurs âgés de **16 ans et plus**. Nous ne collectons pas sciemment d'informations personnelles auprès d'enfants de moins de 16ans. Si vous êtes un parent ou tuteur et que vous découvrez que votre enfant de moins de 16 ans nous a fourni des informations (ce qui est très peu probable étant donné la nature locale du stockage), veuillez nous contacter à [votre email : mcsedition@gmail.com
-] afin que nous puissions prendre les mesures nécessaires.
+L'Application ÉmojiMot est destinée aux utilisateurs âgés de **16 ans et plus**. Nous ne collectons pas sciemment d'informations personnelles auprès d'enfants de moins de **16 ans**. Si vous êtes un parent ou tuteur et que vous découvrez que votre enfant de moins de 16 ans nous a fourni des informations (ce qui est très peu probable étant donné la nature locale du stockage), veuillez nous contacter à mcsedition@gmail.com afin que nous puissions prendre les mesures nécessaires.
 
 ## 7. Vos Droits
 
 Étant donné que la plupart des données sont stockées localement sur votre appareil :
 
 * **Accès et Correction :** Vous gérez directement vos préférences dans les paramètres de l'Application. La progression est gérée par votre jeu.
-* **Suppression :** La désinstallation de l'Application supprimera toutes les données stockées localement sur votre appareil. Les données de transaction restent soumises à la politique de Google Play Store.
+* **Suppression :** La désinstallation de l'Application supprimera toutes les données stockées localement sur votre appareil, **y compris les achats intégrés**. Les données de transaction restent soumises à la politique de Google Play Store.
 
 ## 8. Modifications de cette Politique de Confidentialité
 
@@ -81,5 +90,5 @@ Nous pouvons mettre à jour cette politique de confidentialité de temps à autr
 
 Si vous avez des questions concernant cette politique de confidentialité, veuillez nous contacter :
 
-* Email : **mcsedition@gmail.com**
-* Développeur : **[mcsedition@gmail.com]**
+* Email : mcsedition@gmail.com
+* Développeur : mcsedition@gmail.com
