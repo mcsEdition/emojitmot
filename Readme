@@ -44,14 +44,6 @@ Les types de données suivantes sont stockées **uniquement sur votre appareil**
     * Informations sur les publicités que vous voyez
     * Interactions avec les publicités (clics, visionnements)
 
-* **Données de diagnostic**
-    * Informations sur les performances de l'application
-    * Rapports de plantage pour améliorer la stabilité
-
-* **Localisation approximative** (si autorisée)
-    * Utilisée pour afficher des publicités pertinentes selon votre région
-    * **Note :** ÉmojiMot ne demande pas directement l'accès à votre localisation
-
 **Ces données sont collectées et traitées par Google conformément à leur politique de confidentialité :**
 * [Politique de confidentialité de Google](https://policies.google.com/privacy)
 * [Comment Google utilise les données des apps qui utilisent ses services](https://policies.google.com/technologies/partner-sites)
@@ -79,12 +71,6 @@ Les publicités dans ÉmojiMot servent à :
 
 ## 3. Publicités et vie privée
 
-### 3.1 Publicités personnalisées
-Par défaut, Google AdMob peut afficher des **publicités personnalisées** basées sur vos centres d'intérêt.
-
-**Vous pouvez désactiver les publicités personnalisées :**
-* **Sur iOS** : Réglages → Confidentialité → Suivi publicitaire → Désactiver "Autoriser les demandes de suivi"
-* **Sur Android** : Réglages → Google → Annonces → Désactiver la personnalisation des annonces
 
 Même si vous désactivez les publicités personnalisées, vous verrez toujours des publicités, mais elles seront moins pertinentes pour vous.
 
@@ -134,7 +120,7 @@ Ces services peuvent collecter des données pour leurs propres besoins conformé
 * Les publicités affichées sont configurées pour être **adaptées aux familles**
 * Nous respectons les réglementations COPPA (USA) et GDPR-K (Europe)
 
-Si vous êtes un parent ou tuteur et que vous avez des préoccupations concernant la confidentialité de votre enfant, veuillez nous contacter à **mcsedition@gmail.com**.
+Si vous êtes un parent ou tuteur et que vous avez des préoccupations concernant la confidentialité de votre enfant, veuillez nous contacter à **emojimot@mcsedition.org**.
 
 ---
 
@@ -200,9 +186,9 @@ Pour les utilisateurs de l'Union Européenne, les bases légales de notre traite
 
 Si vous avez des questions, des préoccupations ou des demandes concernant cette politique de confidentialité ou le traitement de vos données, veuillez nous contacter :
 
-* **Email** : mcsedition@gmail.com
+* **Email** : emojimot@mcsedition.org
 * **Développeur** : MCS Édition
-* **Support** : mcsedition@gmail.com
+* **Support** : emojimot@mcsedition.org
 
 **Pour les questions spécifiques à Google AdMob et aux données publicitaires :**
 * Consultez le [Centre d'aide Google](https://support.google.com/admob)
