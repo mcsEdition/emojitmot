@@ -1,1 +1,511 @@
 
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Politique de confidentialité d'ÉmojiMot - Jeu de rébus phonétiques avec émojis">
+    <title>Politique de Confidentialité - ÉmojiMot</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.7;
+            color: #333;
+            background: linear-gradient(135deg, #B794F6 0%, #9D67FF 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            padding: 40px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 3px solid #9D67FF;
+        }
+
+        .header h1 {
+            color: #9D67FF;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 900;
+        }
+
+        .header .emoji {
+            font-size: 3em;
+            margin-bottom: 15px;
+        }
+
+        .header .subtitle {
+            color: #666;
+            font-size: 1.1em;
+            margin-top: 10px;
+        }
+
+        .dates {
+            background: #f5f0ff;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .dates p {
+            color: #666;
+            font-size: 0.95em;
+            margin: 5px 0;
+        }
+
+        .dates strong {
+            color: #9D67FF;
+        }
+
+        h2 {
+            color: #9D67FF;
+            font-size: 1.8em;
+            margin-top: 35px;
+            margin-bottom: 20px;
+            font-weight: 800;
+            border-left: 5px solid #9D67FF;
+            padding-left: 15px;
+        }
+
+        h3 {
+            color: #7C4FCC;
+            font-size: 1.3em;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        ul {
+            margin-left: 30px;
+            margin-bottom: 20px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+
+        .highlight-box {
+            background: #fff8e6;
+            border-left: 4px solid #FFD02C;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .info-box {
+            background: #f0f8ff;
+            border-left: 4px solid #4CD97B;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .warning-box {
+            background: #fff0f5;
+            border-left: 4px solid #FF6B9E;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        table th {
+            background: #9D67FF;
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-weight: 700;
+        }
+
+        table td {
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        table tr:last-child td {
+            border-bottom: none;
+        }
+
+        table tr:hover {
+            background: #f9f9f9;
+        }
+
+        a {
+            color: #9D67FF;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #7C4FCC;
+            text-decoration: underline;
+        }
+
+        .contact-section {
+            background: linear-gradient(135deg, #9D67FF 0%, #B794F6 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .contact-section h2 {
+            color: white;
+            border: none;
+            padding: 0;
+        }
+
+        .contact-section a {
+            color: #FFD02C;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 2px solid #eee;
+            color: #666;
+            font-size: 0.95em;
+        }
+
+        .footer .emoji {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 25px;
+            }
+
+            .header h1 {
+                font-size: 1.8em;
+            }
+
+            h2 {
+                font-size: 1.4em;
+            }
+
+            h3 {
+                font-size: 1.1em;
+            }
+
+            table {
+                font-size: 0.9em;
+            }
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #9D67FF;
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(157, 103, 255, 0.4);
+            transition: all 0.3s;
+            text-decoration: none;
+            font-size: 24px;
+        }
+
+        .back-to-top:hover {
+            background: #7C4FCC;
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="emoji">🎮✨</div>
+            <h1>Politique de Confidentialité</h1>
+            <div class="subtitle">ÉmojiMot - Rébus phonétiques</div>
+        </div>
+
+        <div class="dates">
+            <p><strong>Date d'entrée en vigueur :</strong> 24 octobre 2025</p>
+            <p><strong>Dernière mise à jour :</strong> 24 octobre 2025</p>
+        </div>
+
+        <div class="info-box">
+            <p><strong>Bienvenue dans ÉmojiMot !</strong> Cette politique de confidentialité explique comment nous (ÉmojiMot, développé par MCS Édition) collectons, utilisons et protégeons vos informations lorsque vous utilisez notre application mobile ÉmojiMot (l'"Application").</p>
+            <p>Votre vie privée est importante pour nous. Veuillez lire attentivement cette politique de confidentialité.</p>
+        </div>
+
+        <h2>1. Informations que nous collectons</h2>
+        <p>ÉmojiMot est conçu pour minimiser la collecte de données personnelles. Nous ne collectons pas d'informations permettant de vous identifier personnellement (comme votre nom, adresse e-mail, numéro de téléphone) directement via l'application.</p>
+
+        <h3>1.1 Données stockées localement sur votre appareil</h3>
+        <p>Les types de données suivantes sont stockées <strong>uniquement sur votre appareil</strong> et ne sont jamais transmises à nos serveurs :</p>
+        <ul>
+            <li><strong>Préférences utilisateur :</strong>
+                <ul>
+                    <li>État des effets sonores (activés/désactivés)</li>
+                    <li>État de la musique de fond (activée/désactivée)</li>
+                    <li>Ces préférences sont utilisées pour personnaliser votre expérience de jeu</li>
+                </ul>
+            </li>
+            <li><strong>Progression dans le jeu :</strong>
+                <ul>
+                    <li>Catégories déverrouillées</li>
+                    <li>Niveaux complétés et progression</li>
+                    <li>Score et nombre de mots trouvés</li>
+                    <li>Nombre de vies restantes</li>
+                    <li>Indices disponibles</li>
+                    <li>Ces données sont utilisées pour sauvegarder votre partie</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3>1.2 Données collectées par nos partenaires publicitaires</h3>
+        <p>ÉmojiMot est une application <strong>gratuite</strong> financée par la publicité. Nous utilisons <strong>Google Mobile Ads (AdMob)</strong> pour afficher des publicités dans l'application.</p>
+
+        <div class="warning-box">
+            <p><strong>Google AdMob collecte automatiquement les données suivantes :</strong></p>
+            <ul>
+                <li><strong>Identifiant publicitaire de l'appareil (IDFA sur iOS, AAID sur Android)</strong>
+                    <ul>
+                        <li>Utilisé pour personnaliser les publicités que vous voyez</li>
+                        <li>Utilisé pour mesurer l'efficacité des publicités</li>
+                    </ul>
+                </li>
+                <li><strong>Données publicitaires</strong>
+                    <ul>
+                        <li>Informations sur les publicités que vous voyez</li>
+                        <li>Interactions avec les publicités (clics, visionnements)</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <p><strong>Ces données sont collectées et traitées par Google conformément à leur politique de confidentialité :</strong></p>
+        <ul>
+            <li><a href="https://policies.google.com/privacy" target="_blank">Politique de confidentialité de Google</a></li>
+            <li><a href="https://policies.google.com/technologies/partner-sites" target="_blank">Comment Google utilise les données des apps qui utilisent ses services</a></li>
+        </ul>
+
+        <h2>2. Comment nous utilisons vos informations</h2>
+
+        <h3>2.1 Données locales</h3>
+        <p>Les informations stockées localement sur votre appareil sont utilisées exclusivement pour :</p>
+        <ul>
+            <li>Faire fonctionner l'Application et ses fonctionnalités</li>
+            <li>Sauvegarder votre progression et vos préférences</li>
+            <li>Améliorer votre expérience de jeu</li>
+        </ul>
+
+        <h3>2.2 Publicités</h3>
+        <p>Les publicités dans ÉmojiMot servent à :</p>
+        <ul>
+            <li><strong>Financer l'application gratuite</strong> pour que vous puissiez jouer sans payer</li>
+            <li><strong>Offrir des indices gratuits</strong> : vous pouvez regarder une publicité récompensée (rewarded ad) pour obtenir un indice qui vous aide à résoudre un rébus difficile</li>
+        </ul>
+
+        <div class="highlight-box">
+            <p><strong>Types de publicités affichées :</strong></p>
+            <ul>
+                <li><strong>Publicités interstitielles</strong> : affichées entre les niveaux</li>
+                <li><strong>Publicités récompensées</strong> : visionnement volontaire pour obtenir des indices gratuits</li>
+            </ul>
+        </div>
+
+        <h2>3. Publicités et vie privée</h2>
+
+        <h3>3.1 Publicités personnalisées</h3>
+        <p>Même si vous désactivez les publicités personnalisées, vous verrez toujours des publicités, mais elles seront moins pertinentes pour vous.</p>
+
+        <h3>3.2 Publicités pour enfants</h3>
+        <p>Conformément aux réglementations sur la protection des enfants (COPPA, GDPR-K), si notre Application est utilisée par des mineurs, nous demandons à Google AdMob de diffuser uniquement des <strong>publicités adaptées aux familles</strong> et non personnalisées.</p>
+
+        <h2>4. Stockage et Sécurité des Données</h2>
+        <ul>
+            <li><strong>Données locales</strong> : Stockées uniquement sur votre appareil. Leur sécurité dépend de la sécurité de votre appareil.</li>
+            <li><strong>Données publicitaires</strong> : Gérées par Google AdMob selon leurs standards de sécurité.</li>
+        </ul>
+        <p>Nous ne transférons <strong>aucune donnée personnelle</strong> vers nos propres serveurs car nous n'en avons pas.</p>
+
+        <h2>5. Partage des Informations</h2>
+        <p><strong>Nous ne partageons aucune information personnelle avec des tiers</strong>, car nous ne collectons pas d'informations personnelles directement.</p>
+        <p>Les seules données partagées sont celles collectées automatiquement par <strong>Google AdMob</strong> pour la diffusion de publicités, conformément à leur politique de confidentialité.</p>
+        <p>Nous ne vendons, ne louons ni n'échangeons vos données personnelles.</p>
+
+        <h2>6. Services tiers utilisés</h2>
+        <p>ÉmojiMot utilise les services tiers suivants :</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Service</th>
+                    <th>Objectif</th>
+                    <th>Politique de confidentialité</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Google AdMob</strong></td>
+                    <td>Publicités</td>
+                    <td><a href="https://policies.google.com/privacy" target="_blank">Politique Google</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Google Play Services</strong> (Android)</td>
+                    <td>Services système</td>
+                    <td><a href="https://policies.google.com/privacy" target="_blank">Politique Google</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Ces services peuvent collecter des données pour leurs propres besoins conformément à leurs politiques respectives.</p>
+
+        <h2>7. Confidentialité des Enfants</h2>
+        <p>ÉmojiMot est un jeu familial adapté à <strong>tous les âges (4+)</strong>.</p>
+        <div class="info-box">
+            <p><strong>Protection des enfants :</strong></p>
+            <ul>
+                <li>Nous ne collectons <strong>jamais sciemment</strong> d'informations personnelles auprès d'enfants</li>
+                <li>Les publicités affichées sont configurées pour être <strong>adaptées aux familles</strong></li>
+                <li>Nous respectons les réglementations COPPA (USA) et GDPR-K (Europe)</li>
+            </ul>
+        </div>
+        <p>Si vous êtes un parent ou tuteur et que vous avez des préoccupations concernant la confidentialité de votre enfant, veuillez nous contacter à <strong>emojimot@mcsedition.org</strong>.</p>
+
+        <h2>8. Vos Droits</h2>
+
+        <h3>8.1 Gestion de vos données locales</h3>
+        <ul>
+            <li><strong>Accès et Modification</strong> : Gérez vos préférences dans les paramètres de l'Application</li>
+            <li><strong>Suppression</strong> : La désinstallation de l'Application supprime toutes les données stockées localement sur votre appareil</li>
+        </ul>
+
+        <h3>8.2 Contrôle de la publicité</h3>
+        <ul>
+            <li><strong>Désactiver le suivi publicitaire</strong> : Via les paramètres de votre appareil</li>
+            <li><strong>Limiter les publicités personnalisées</strong> : Via les paramètres système de votre appareil</li>
+        </ul>
+
+        <h3>8.3 Droits selon le RGPD (Utilisateurs européens)</h3>
+        <p>Si vous êtes dans l'Union Européenne, vous avez le droit de :</p>
+        <ul>
+            <li>Accéder à vos données personnelles</li>
+            <li>Rectifier vos données personnelles</li>
+            <li>Supprimer vos données personnelles</li>
+            <li>Vous opposer au traitement de vos données</li>
+            <li>Limiter le traitement de vos données</li>
+            <li>Demander la portabilité de vos données</li>
+        </ul>
+        <p>Pour exercer ces droits concernant les données collectées par Google AdMob, veuillez consulter les <a href="https://myaccount.google.com/data-and-privacy" target="_blank">outils de contrôle de confidentialité de Google</a>.</p>
+
+        <h2>9. Conservation des données</h2>
+        <ul>
+            <li><strong>Données locales</strong> : Conservées sur votre appareil jusqu'à la désinstallation de l'Application</li>
+            <li><strong>Données publicitaires</strong> : Gérées par Google AdMob selon leur politique de conservation (généralement 2 ans maximum)</li>
+        </ul>
+
+        <h2>10. Transferts internationaux de données</h2>
+        <p>Google AdMob peut transférer vos données vers des serveurs situés en dehors de votre pays, y compris aux États-Unis. Ces transferts sont effectués conformément aux réglementations applicables en matière de protection des données.</p>
+
+        <h2>11. Modifications de cette Politique de Confidentialité</h2>
+        <p>Nous pouvons mettre à jour cette politique de confidentialité de temps à autre pour refléter les changements dans nos pratiques ou pour d'autres raisons opérationnelles, légales ou réglementaires.</p>
+        <div class="highlight-box">
+            <p><strong>En cas de modifications importantes :</strong></p>
+            <ul>
+                <li>Nous mettrons à jour la date "Dernière mise à jour" en haut de cette page</li>
+                <li>Nous vous informerons via une notification dans l'Application (si applicable)</li>
+            </ul>
+        </div>
+        <p>Nous vous encourageons à consulter périodiquement cette politique pour rester informé de la manière dont nous protégeons vos informations.</p>
+
+        <h2>12. Base légale du traitement (RGPD)</h2>
+        <p>Pour les utilisateurs de l'Union Européenne, les bases légales de notre traitement sont :</p>
+        <ul>
+            <li><strong>Intérêt légitime</strong> : Affichage de publicités pour financer l'application gratuite</li>
+            <li><strong>Consentement</strong> : Lorsque vous choisissez de regarder une publicité récompensée pour obtenir un indice</li>
+            <li><strong>Exécution d'un contrat</strong> : Fourniture des services de jeu</li>
+        </ul>
+
+        <div class="contact-section">
+            <h2>13. Nous Contacter</h2>
+            <p>Si vous avez des questions, des préoccupations ou des demandes concernant cette politique de confidentialité ou le traitement de vos données, veuillez nous contacter :</p>
+            <p>
+                <strong>Email :</strong> <a href="mailto:emojimot@mcsedition.org">emojimot@mcsedition.org</a><br>
+                <strong>Développeur :</strong> MCS Édition<br>
+                <strong>Support :</strong> <a href="mailto:emojimot@mcsedition.org">emojimot@mcsedition.org</a>
+            </p>
+            <p><strong>Pour les questions spécifiques à Google AdMob et aux données publicitaires :</strong><br>
+            Consultez le <a href="https://support.google.com/admob" target="_blank">Centre d'aide Google</a></p>
+        </div>
+
+        <h2>14. Autorité de contrôle</h2>
+        <p>Si vous êtes dans l'Union Européenne et que vous estimez que vos droits en matière de protection des données ont été violés, vous avez le droit de déposer une plainte auprès de votre autorité de protection des données locale.</p>
+
+        <div class="footer">
+            <div class="emoji">🎮✨🎉</div>
+            <p><strong>Merci d'utiliser ÉmojiMot !</strong></p>
+            <p>Cette politique de confidentialité vous aide à comprendre comment nous protégeons votre vie privée tout en vous offrant une expérience de jeu amusante et gratuite.</p>
+            <p style="margin-top: 20px; font-size: 0.9em;">© 2025 MCS Édition - Tous droits réservés</p>
+        </div>
+    </div>
+
+    <a href="#" class="back-to-top">↑</a>
+
+    <script>
+        // Smooth scroll pour le bouton retour en haut
+        document.querySelector('.back-to-top').addEventListener('click', function(e) {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // Afficher/cacher le bouton selon le scroll
+        window.addEventListener('scroll', function() {
+            const backToTop = document.querySelector('.back-to-top');
+            if (window.pageYOffset > 300) {
+                backToTop.style.display = 'flex';
+            } else {
+                backToTop.style.display = 'none';
+            }
+        });
+
+        // Cacher le bouton au chargement
+        document.querySelector('.back-to-top').style.display = 'none';
+    </script>
+</body>
+</html>
