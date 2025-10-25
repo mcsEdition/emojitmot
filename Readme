@@ -1,94 +1,220 @@
 # Politique de Confidentialité pour ÉmojiMot
 
-**Date d'entrée en vigueur :** 29 avril 2025
-**Dernière mise à jour :** 29 avril 2025
+**Date d'entrée en vigueur :** 24 octobre 2025  
+**Dernière mise à jour :** 24 octobre 2025
 
-Bienvenue dans ÉmojiMot ! Cette politique de confidentialité explique comment nous (ÉmojiMot) collectons, utilisons et protégeons vos informations lorsque vous utilisez notre application mobile ÉmojiMot (l'"Application").
+Bienvenue dans ÉmojiMot ! Cette politique de confidentialité explique comment nous (ÉmojiMot, développé par MCS Édition) collectons, utilisons et protégeons vos informations lorsque vous utilisez notre application mobile ÉmojiMot (l'"Application").
 
 Votre vie privée est importante pour nous. Veuillez lire attentivement cette politique de confidentialité.
 
+---
+
 ## 1. Informations que nous collectons
 
-ÉmojiMot est conçu pour minimiser la collecte de données personnelles. Les informations que nous traitons sont principalement liées au fonctionnement du jeu et sont stockées localement sur votre appareil. Nous ne collectons pas d'informations permettant de vous identifier personnellement (comme votre nom, adresse e-mail, numéro de téléphone) directement via l'application, sauf dans le cadre des processus d'achat gérés par les plateformes tierces (voir section 4).
+ÉmojiMot est conçu pour minimiser la collecte de données personnelles. Nous ne collectons pas d'informations permettant de vous identifier personnellement (comme votre nom, adresse e-mail, numéro de téléphone) directement via l'application.
 
-Les types de données traitées incluent :
+### 1.1 Données stockées localement sur votre appareil
 
-* **Préférences Utilisateur :**
-    * État des effets sonores (activés/désactivés).
-    * État de la musique de fond (activée/désactivée).
-    * Ces préférences sont stockées **localement sur votre appareil** pour personnaliser votre expérience de jeu.
+Les types de données suivantes sont stockées **uniquement sur votre appareil** et ne sont jamais transmises à nos serveurs :
+
+* **Préférences utilisateur :**
+    * État des effets sonores (activés/désactivés)
+    * État de la musique de fond (activée/désactivée)
+    * Ces préférences sont utilisées pour personnaliser votre expérience de jeu
 
 * **Progression dans le jeu :**
-    * Catégories déverrouillées.
-    * Niveau actuel ou progression dans les catégories (par exemple, nombre de mots trouvés, score si applicable).
-    * Nombre de vies restantes.
-    * Inventaire des ressources achetées (indices, pauses, solutions, etc.).
-    * Ces données sont stockées **localement sur votre appareil** pour sauvegarder votre partie et gérer les ressources acquises.
+    * Catégories déverrouillées
+    * Niveaux complétés et progression
+    * Score et nombre de mots trouvés
+    * Nombre de vies restantes
+    * Indices disponibles
+    * Ces données sont utilisées pour sauvegarder votre partie
 
-* **Informations sur les transactions (via Google Play Store) :**
-    * Lorsque vous effectuez un achat intégré (In-App Purchase), la transaction est traitée par la plateforme de distribution d'applications (Google Play Store).
-    * Nous ne collectons ni ne stockons **jamais** vos informations de paiement complètes (numéro de carte de crédit, etc.).
-    * Nous pouvons recevoir des informations de confirmation de la part de la plateforme (par exemple, un identifiant de transaction, le produit acheté) pour valider l'achat et débloquer le contenu correspondant dans l'Application. Ces informations sont utilisées **uniquement** pour gérer vos achats au sein de l'Application.
+### 1.2 Données collectées par nos partenaires publicitaires
+
+ÉmojiMot est une application **gratuite** financée par la publicité. Nous utilisons **Google Mobile Ads (AdMob)** pour afficher des publicités dans l'application.
+
+**Google AdMob collecte automatiquement les données suivantes :**
+
+* **Identifiant publicitaire de l'appareil (IDFA sur iOS, AAID sur Android)**
+    * Utilisé pour personnaliser les publicités que vous voyez
+    * Utilisé pour mesurer l'efficacité des publicités
+
+* **Données publicitaires**
+    * Informations sur les publicités que vous voyez
+    * Interactions avec les publicités (clics, visionnements)
+
+* **Données de diagnostic**
+    * Informations sur les performances de l'application
+    * Rapports de plantage pour améliorer la stabilité
+
+* **Localisation approximative** (si autorisée)
+    * Utilisée pour afficher des publicités pertinentes selon votre région
+    * **Note :** ÉmojiMot ne demande pas directement l'accès à votre localisation
+
+**Ces données sont collectées et traitées par Google conformément à leur politique de confidentialité :**
+* [Politique de confidentialité de Google](https://policies.google.com/privacy)
+* [Comment Google utilise les données des apps qui utilisent ses services](https://policies.google.com/technologies/partner-sites)
+
+---
 
 ## 2. Comment nous utilisons vos informations
 
-Les informations traitées localement sont utilisées exclusivement pour :
+### 2.1 Données locales
+Les informations stockées localement sur votre appareil sont utilisées exclusivement pour :
+* Faire fonctionner l'Application et ses fonctionnalités
+* Sauvegarder votre progression et vos préférences
+* Améliorer votre expérience de jeu
 
-* Faire fonctionner l'Application et ses fonctionnalités (jeu, paramètres).
-* Sauvegarder votre progression et vos préférences sur votre appareil.
-* Gérer et créditer les achats intégrés que vous effectuez.
-* Améliorer votre expérience de jeu.
+### 2.2 Publicités
+Les publicités dans ÉmojiMot servent à :
+* **Financer l'application gratuite** pour que vous puissiez jouer sans payer
+* **Offrir des indices gratuits** : vous pouvez regarder une publicité récompensée (rewarded ad) pour obtenir un indice qui vous aide à résoudre un rébus difficile
 
-Les informations de transaction reçues des plateformes sont utilisées **uniquement** pour valider et activer vos achats dans l'Application.
+**Types de publicités affichées :**
+* **Publicités interstitielles** : affichées entre les niveaux
+* **Publicités récompensées** : visionnement volontaire pour obtenir des indices gratuits
 
-## 3. Stockage et Sécurité des Données
+---
 
-Comme mentionné, la majorité des données (préférences, progression, inventaire) sont stockées **uniquement sur votre appareil local**. Nous ne les transférons pas vers nos serveurs.
+## 3. Publicités et vie privée
 
-La sécurité de vos données locales dépend de la sécurité de votre propre appareil. Les informations relatives aux transactions sont gérées par la politique de sécurité et de confidentialité de Google Play Store.
+### 3.1 Publicités personnalisées
+Par défaut, Google AdMob peut afficher des **publicités personnalisées** basées sur vos centres d'intérêt.
 
-## 4. Achats Intégrés (In-App Purchases)
+**Vous pouvez désactiver les publicités personnalisées :**
+* **Sur iOS** : Réglages → Confidentialité → Suivi publicitaire → Désactiver "Autoriser les demandes de suivi"
+* **Sur Android** : Réglages → Google → Annonces → Désactiver la personnalisation des annonces
 
-ÉmojiMot propose des achats intégrés optionnels (par exemple, indices, pauses, solutions, déblocage de catégories) via le Google Play Store. Ces transactions sont soumises aux conditions d'utilisation et à la politique de confidentialité de Google :
+Même si vous désactivez les publicités personnalisées, vous verrez toujours des publicités, mais elles seront moins pertinentes pour vous.
 
-* [Politique de confidentialité de Google](https://policies.google.com/privacy) <0xE2><0x86><0x90> (Assurez-vous que ce lien est correct ou mettez le lien pertinent vers les politiques Google Play)
+### 3.2 Publicités pour enfants
+Conformément aux réglementations sur la protection des enfants (COPPA, GDPR-K), si notre Application est utilisée par des mineurs, nous demandons à Google AdMob de diffuser uniquement des **publicités adaptées aux familles** et non personnalisées.
 
-Nous ne sommes pas responsables des pratiques de collecte de données de Google Play Store.
+---
 
-**Important concernant les achats et la désinstallation :**
+## 4. Stockage et Sécurité des Données
 
-* Les achats effectués dans l'application sont liés à l'appareil sur lequel ils ont été réalisés.
-* Si vous désinstallez l'application, tous les achats intégrés que vous avez effectués seront **définitivement perdus**.
-* Notre application ne prend pas en charge la restauration des achats précédents après une désinstallation.
-* Nous vous recommandons de ne pas désinstaller l'application si vous avez effectué des achats que vous souhaitez conserver.
-* Cette limitation technique est due à notre choix de privilégier la simplicité et la protection de la vie privée en évitant de stocker des données sur des serveurs distants.
+* **Données locales** : Stockées uniquement sur votre appareil. Leur sécurité dépend de la sécurité de votre appareil.
+* **Données publicitaires** : Gérées par Google AdMob selon leurs standards de sécurité.
+
+Nous ne transférons **aucune donnée personnelle** vers nos propres serveurs car nous n'en avons pas.
+
+---
 
 ## 5. Partage des Informations
 
-Nous ne partageons **aucune** information personnelle identifiable collectée *par notre Application* (car nous n'en collectons pas directement) avec des tiers.
+**Nous ne partageons aucune information personnelle avec des tiers**, car nous ne collectons pas d'informations personnelles directement.
 
-Les informations de transaction sont gérées par Google Play Store conformément à leur politique.
+Les seules données partagées sont celles collectées automatiquement par **Google AdMob** pour la diffusion de publicités, conformément à leur politique de confidentialité.
 
-Nous pouvons utiliser des données agrégées et anonymisées (qui ne permettent pas de vous identifier) à des fins d'analyse interne pour améliorer l'Application, mais nous ne collectons actuellement pas de telles données via des outils d'analyse tiers.
+Nous ne vendons, ne louons ni n'échangeons vos données personnelles.
 
-## 6. Confidentialité des Enfants
+---
 
-L'Application ÉmojiMot est destinée aux utilisateurs âgés de **16 ans et plus**. Nous ne collectons pas sciemment d'informations personnelles auprès d'enfants de moins de **16 ans**. Si vous êtes un parent ou tuteur et que vous découvrez que votre enfant de moins de 16 ans nous a fourni des informations (ce qui est très peu probable étant donné la nature locale du stockage), veuillez nous contacter à mcsedition@gmail.com afin que nous puissions prendre les mesures nécessaires.
+## 6. Services tiers utilisés
 
-## 7. Vos Droits
+ÉmojiMot utilise les services tiers suivants :
 
-Étant donné que la plupart des données sont stockées localement sur votre appareil :
+| Service | Objectif | Politique de confidentialité |
+|---------|----------|------------------------------|
+| **Google AdMob** | Publicités | [Politique Google](https://policies.google.com/privacy) |
+| **Google Play Services** (Android) | Services système | [Politique Google](https://policies.google.com/privacy) |
 
-* **Accès et Correction :** Vous gérez directement vos préférences dans les paramètres de l'Application. La progression est gérée par votre jeu.
-* **Suppression :** La désinstallation de l'Application supprimera toutes les données stockées localement sur votre appareil, **y compris les achats intégrés**. Les données de transaction restent soumises à la politique de Google Play Store.
+Ces services peuvent collecter des données pour leurs propres besoins conformément à leurs politiques respectives.
 
-## 8. Modifications de cette Politique de Confidentialité
+---
 
-Nous pouvons mettre à jour cette politique de confidentialité de temps à autre. Nous vous informerons de tout changement en publiant la nouvelle politique de confidentialité sur cette page et en mettant à jour la "Dernière mise à jour" en haut. Nous vous encourageons à consulter périodiquement cette politique de confidentialité pour tout changement.
+## 7. Confidentialité des Enfants
 
-## 9. Nous Contacter
+ÉmojiMot est un jeu familial adapté à **tous les âges (4+)**.
 
-Si vous avez des questions concernant cette politique de confidentialité, veuillez nous contacter :
+**Protection des enfants :**
+* Nous ne collectons **jamais sciemment** d'informations personnelles auprès d'enfants
+* Les publicités affichées sont configurées pour être **adaptées aux familles**
+* Nous respectons les réglementations COPPA (USA) et GDPR-K (Europe)
 
-* Email : mcsedition@gmail.com
-* Développeur : mcsedition@gmail.com
+Si vous êtes un parent ou tuteur et que vous avez des préoccupations concernant la confidentialité de votre enfant, veuillez nous contacter à **mcsedition@gmail.com**.
+
+---
+
+## 8. Vos Droits
+
+### 8.1 Gestion de vos données locales
+* **Accès et Modification** : Gérez vos préférences dans les paramètres de l'Application
+* **Suppression** : La désinstallation de l'Application supprime toutes les données stockées localement sur votre appareil
+
+### 8.2 Contrôle de la publicité
+* **Désactiver le suivi publicitaire** : Via les paramètres de votre appareil (voir section 3.1)
+* **Limiter les publicités personnalisées** : Via les paramètres système de votre appareil
+
+### 8.3 Droits selon le RGPD (Utilisateurs européens)
+Si vous êtes dans l'Union Européenne, vous avez le droit de :
+* Accéder à vos données personnelles
+* Rectifier vos données personnelles
+* Supprimer vos données personnelles
+* Vous opposer au traitement de vos données
+* Limiter le traitement de vos données
+* Demander la portabilité de vos données
+
+Pour exercer ces droits concernant les données collectées par Google AdMob, veuillez consulter les [outils de contrôle de confidentialité de Google](https://myaccount.google.com/data-and-privacy).
+
+---
+
+## 9. Conservation des données
+
+* **Données locales** : Conservées sur votre appareil jusqu'à la désinstallation de l'Application
+* **Données publicitaires** : Gérées par Google AdMob selon leur politique de conservation (généralement 2 ans maximum)
+
+---
+
+## 10. Transferts internationaux de données
+
+Google AdMob peut transférer vos données vers des serveurs situés en dehors de votre pays, y compris aux États-Unis. Ces transferts sont effectués conformément aux réglementations applicables en matière de protection des données.
+
+---
+
+## 11. Modifications de cette Politique de Confidentialité
+
+Nous pouvons mettre à jour cette politique de confidentialité de temps à autre pour refléter les changements dans nos pratiques ou pour d'autres raisons opérationnelles, légales ou réglementaires.
+
+**En cas de modifications importantes :**
+* Nous mettrons à jour la date "Dernière mise à jour" en haut de cette page
+* Nous vous informerons via une notification dans l'Application (si applicable)
+
+Nous vous encourageons à consulter périodiquement cette politique pour rester informé de la manière dont nous protégeons vos informations.
+
+---
+
+## 12. Base légale du traitement (RGPD)
+
+Pour les utilisateurs de l'Union Européenne, les bases légales de notre traitement sont :
+
+* **Intérêt légitime** : Affichage de publicités pour financer l'application gratuite
+* **Consentement** : Lorsque vous choisissez de regarder une publicité récompensée pour obtenir un indice
+* **Exécution d'un contrat** : Fourniture des services de jeu
+
+---
+
+## 13. Nous Contacter
+
+Si vous avez des questions, des préoccupations ou des demandes concernant cette politique de confidentialité ou le traitement de vos données, veuillez nous contacter :
+
+* **Email** : mcsedition@gmail.com
+* **Développeur** : MCS Édition
+* **Support** : mcsedition@gmail.com
+
+**Pour les questions spécifiques à Google AdMob et aux données publicitaires :**
+* Consultez le [Centre d'aide Google](https://support.google.com/admob)
+
+---
+
+## 14. Autorité de contrôle
+
+Si vous êtes dans l'Union Européenne et que vous estimez que vos droits en matière de protection des données ont été violés, vous avez le droit de déposer une plainte auprès de votre autorité de protection des données locale.
+
+---
+
+**Merci d'utiliser ÉmojiMot ! 🎮**
+
+Cette politique de confidentialité vous aide à comprendre comment nous protégeons votre vie privée tout en vous offrant une expérience de jeu amusante et gratuite.
